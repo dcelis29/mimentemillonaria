@@ -109,6 +109,11 @@ nav ul li a:hover{
 
 iframe{
 	display: block;
+	height: 17.9em;
+	width: 32em;
+	position: absolute;
+	margin: 1em 0 0 17em;
+	box-shadow: 0px 0px 12px 10px rgba(18,31,2,2);
 }
 
 #contenido{
@@ -159,24 +164,17 @@ footer .footer-texto{
 
 /*Media screen*/
 /*min width: 800px quiere decir que 800px para abajo no haga nada y que los cambios que se pongan en el media screen se apliquen solo de 800px hacia arriba*/
-@media screen and (min-width: 800px){
+/*@media screen and (min-width: 800px){
 	#contenido .item{
 		width: 48%;
 		display: inline-block;
 	}
 
 	#contenido .item:nth-child(odd){/*el seudoselector nth-child se utiliza para seleccionar items, en este caso el parámetro odd quiere decir que selecciona los items impares*/
-		margin-right: 2%;/*se pone margen derecha a los items 1, 3 y 5 en este caso*/
-	}
+		/*margin-right: 2%;/*se pone margen derecha a los items 1, 3 y 5 en este caso*/
+	/*}*/
 
 @media screen and (min-width: 1000px){
-	iframe{
-		display: block;
-		float: left;	
-		margin: 5em 1em 0 19em;
-		width: 40%;
-	}
-
 	iframe{
 		display: block;
 		height: 17.9em;

@@ -108,7 +108,7 @@ nav ul li a:hover{
 }
 
 iframe{
-	display: none;
+	display: block;
 }
 
 #contenido{

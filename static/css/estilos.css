@@ -27,16 +27,18 @@ header h1{
 }
 
 header p{
-	color: #cc9933;
-	margin: 1em 16em 1em 11.4em;
-	text-align: justify;	
+	display: none;	
 }
 
-header h1, header h2{	
+header h2{	
 	color: #cc9933;
 	font-weight: bold;
 	margin: 0 70px 0 0;
 	text-align: center;
+}
+
+header h1{	
+	display: none;
 }
 
 header figure{
@@ -47,7 +49,7 @@ header figure{
 header #avatar{
 	position: absolute; /*busca la posición relative más cercana, en este caso el header*/
 	top: 0; /*se posiciona arriba*/
-	right: 65%; /*se posiciona a la derecha*/	
+	right: 32%; /*se posiciona a la derecha*/	
 }
 
 header #avatar img{
@@ -100,7 +102,7 @@ iframe{
 	height: 17.9em;
 	width: 32em;
 	position: absolute;
-	margin: 1em 0 0 17em;
+	margin: 6em 0 0 2em;
 	box-shadow: 0px 0px 12px 10px rgba(18,31,2,2);
 }
 
@@ -177,6 +179,18 @@ footer .footer-texto{
 		right: 0; /*se posiciona a la derecha*/
 		margin: 0.5em 0.5em 0 0;
 	}
+		header p{
+		color: #cc9933;
+		margin: 1em 16em 1em 11.4em;
+		text-align: justify;	
+	}
+		header h1{	
+		color: #cc9933;
+		font-weight: bold;
+		margin: 0 70px 0 0;
+		text-align: center;
+	}
+
 }
 
 

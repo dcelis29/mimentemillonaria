@@ -171,12 +171,12 @@ footer .footer-texto{
 		margin: 1em 0 0 17em;
 		box-shadow: 0px 0px 12px 10px rgba(18,31,2,2);		
 	}
-	header #avatar{
-	position: absolute; /*busca la posición relative más cercana, en este caso el header*/
-	top: 0; /*se posiciona arriba*/
-	right: 0; /*se posiciona a la derecha*/
-	margin: 0.5em 0.5em 0 0;
-}
+		header #avatar{
+		position: absolute; /*busca la posición relative más cercana, en este caso el header*/
+		top: 0; /*se posiciona arriba*/
+		right: 0; /*se posiciona a la derecha*/
+		margin: 0.5em 0.5em 0 0;
+	}
 }
 
 

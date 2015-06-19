@@ -49,7 +49,7 @@ header figure{
 header #avatar{
 	position: absolute; /*busca la posición relative más cercana, en este caso el header*/
 	top: 0; /*se posiciona arriba*/
-	right: 32%; /*se posiciona a la derecha*/	
+	right: 50%; /*se posiciona a la derecha*/	
 }
 
 header #avatar img{
@@ -99,7 +99,7 @@ nav ul li a:hover{
 
 iframe{
 	display: block;
-	height: 15em;
+	height: 13em;
 	width: 36em;
 	position: absolute;
 	margin: 6em 0 0 7em;

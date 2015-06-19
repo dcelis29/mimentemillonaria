@@ -5,7 +5,6 @@ a{
 body{
 	-webkit-box-shadow: 5px 4px 40px 7px rgba(1,1,1,1);
 	box-shadow: 5px 4px 40px 7px rgba(1,1,1,1);
-
 	background: #eeeeee;
 	font-family: "Open Sans";
 	font-size: 16px;
@@ -17,7 +16,7 @@ body{
 header{
 	background: #eeeeee;
 	overflow: hidden; /*para que cuando un objeto este flotando (float) no cuente el atributo al que se le pone overflow, es decir flota para todo menos para el header en este caso*/
-	padding: 5.5em 0.8em 3em 0.8em;
+	padding: 7.5em 0.8em 3em 0.8em;
 	position: relative; /*para que el avatar se mueva dentro del header, por ser la posición relativa más cercana*/
 
 }
@@ -179,12 +178,20 @@ footer .footer-texto{
 		right: 0; /*se posiciona a la derecha*/
 		margin: 0.5em 0.5em 0 0;
 	}
+		header{
+		background: #eeeeee;
+		overflow: hidden; /*para que cuando un objeto este flotando (float) no cuente el atributo al que se le pone overflow, es decir flota para todo menos para el header en este caso*/
+		padding: 5.5em 0.8em 3em 0.8em;
+		position: relative; /*para que el avatar se mueva dentro del header, por ser la posición relativa más cercana*/
+}
 		header p{
+		display: block;
 		color: #cc9933;
 		margin: 1em 16em 1em 11.4em;
 		text-align: justify;	
 	}
 		header h1{	
+		display: block;
 		color: #cc9933;
 		font-weight: bold;
 		margin: 0 70px 0 0;

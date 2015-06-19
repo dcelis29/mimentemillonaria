@@ -49,7 +49,7 @@ header figure{
 header #avatar{
 	position: absolute; /*busca la posición relative más cercana, en este caso el header*/
 	top: 0; /*se posiciona arriba*/
-	right: 50%; /*se posiciona a la derecha*/	
+	right: 45%; /*se posiciona a la derecha*/	
 }
 
 header #avatar img{

@@ -99,10 +99,10 @@ nav ul li a:hover{
 
 iframe{
 	display: block;
-	height: 17.9em;
-	width: 32em;
+	height: 15em;
+	width: 36em;
 	position: absolute;
-	margin: 6em 0 0 2em;
+	margin: 6em 0 0 7em;
 	box-shadow: 0px 0px 12px 10px rgba(18,31,2,2);
 }
 
